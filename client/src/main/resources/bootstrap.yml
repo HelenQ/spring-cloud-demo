@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: client
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        service-id: configServer
+        enabled: true
+  profiles:
+    active: client.yml
