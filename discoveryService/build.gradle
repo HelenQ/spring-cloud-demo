@@ -3,6 +3,6 @@
  */
 
 dependencies {
-    compile 'org.springframework.cloud:spring-cloud-netflix-eureka-server:2.0.2.RELEASE'
-    compile 'org.springframework.cloud:spring-cloud-context:2.0.2.RELEASE'
+    compile 'org.springframework.cloud:spring-cloud-netflix-eureka-server'
+    compile 'org.springframework.cloud:spring-cloud-context'
 }
