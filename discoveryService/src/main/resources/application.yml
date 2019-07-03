@@ -16,3 +16,8 @@ eureka:
 logging:
   level:
     com.netflix: WARN
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -5,4 +5,5 @@
 dependencies {
     compile 'org.springframework.cloud:spring-cloud-netflix-eureka-server'
     compile 'org.springframework.cloud:spring-cloud-context'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'
 }
